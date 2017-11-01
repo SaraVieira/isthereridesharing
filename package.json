@@ -1,0 +1,20 @@
+{
+  "name": "isthereuber-db",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "json-server db.json --port 8080",
+    "seed": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.17.0",
+    "json-server": "^0.12.0",
+    "osmosis": "^1.1.4"
+  },
+  "devDependencies": {
+    "jsonfile": "^4.0.0"
+  }
+}
