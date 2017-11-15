@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "json-server db.json --port 8080",
+    "start": "json-server db.js --port 8080",
     "seed": "node index.js"
   },
   "author": "",
